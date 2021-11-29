@@ -21,7 +21,7 @@ const selectRandomImage = function (images) {
     displayImage(randomImage);
 };
 
-// This function will be accepting the random image object, which contains all the properties listed above.
+// This function accepts the random image object, which contains all the properties listed above.
 const displayImage = function (randomImage) {
     // Inside the body of the function, declare a variable called author. In the value, access the author property from the randomImage object. 
     const author = randomImage.author;
