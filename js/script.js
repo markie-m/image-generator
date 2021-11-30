@@ -27,7 +27,7 @@ const displayImage = function (randomImage) {
     const author = randomImage.author;
     // On the next line, declare a variable called imageAddress. In the value, access the download_url property from the randomImage object. 
     const imageAddress = randomImage.download_url;
-    // Next, you’ll be modifying the DOM elements that you declared at the top of the file, with information you’ve captured from our random image. Still, in the displayImage function, change innerText of the authorSpan element to the value of the author variable.
+    // Modify the DOM elements declared at the top of the file using information captured from the random image. 
     authorSpan.innerText = author;
     img.src = imageAddress;
     imgDiv.classList.remove("hide");
